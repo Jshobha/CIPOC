@@ -31,6 +31,7 @@ public class BaseClass: System.Web.UI.Page
 
         // Write the string to a file.
         System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\Users\\HarisinghK\\Desktop\\CruiseControl.NET\\POCWriteFile.txt");
+        //System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\Users\\Shobhaj\\Desktop\\CruiseControl.NET\\POCWriteFile.txt");
         file.WriteLine(lines);
 
         file.Close();
